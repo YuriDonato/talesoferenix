@@ -12,8 +12,6 @@ export const Container = styled.ul`
   justify-content: space-evenly;
   list-style: none;
   margin: 0.75rem;
-  padding: 0.25rem;
-  gap: 0.2rem;
 `
 
 export const Button = styled(Link)`

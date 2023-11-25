@@ -51,7 +51,7 @@ export const UpdatedText = styled(Text)`
   img {
     display: block;
     margin: auto;
-    width: 25%;
+    max-width: 25%;
   }
 `
 
