@@ -11,7 +11,8 @@ export const Container = styled.ul`
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  margin: 0.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 `
 
 export const Button = styled(Link)`
