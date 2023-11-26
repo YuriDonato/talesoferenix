@@ -3,6 +3,7 @@ import * as S from './styles'
 import erenix from '../../assets/images/erenixlogo.png'
 import munnin from '../../assets/images/munnin-frontpage.png'
 import decoImg from '../../assets/images/bottom-ornament.png'
+import { lastUpdate } from '../../data/lastUpdate'
 
 const HomeCard = () => {
   return (
@@ -57,7 +58,7 @@ const HomeCard = () => {
         <S.Text>6 Março 2023: Conto &quot;Hob e Gob&quot; adicionado</S.Text>
         <S.Text>24 Abril 2023: Conto &quot;O Acordo&quot; adicionado</S.Text>
         <img src={decoImg} alt="detalhe de baixo" />
-        <S.MiniText>Ultima atualização: 4 de março de 2023</S.MiniText>
+        <S.MiniText>Ultima atualização: {lastUpdate}</S.MiniText>
       </S.UpdatedText>
     </S.Container>
   )

@@ -2,7 +2,10 @@ import styled from 'styled-components'
 import { MainCard, cores, texto } from '../../styles'
 import { Link } from 'react-router-dom'
 
-export const Container = styled(MainCard)``
+export const Container = styled(MainCard)`
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+`
 
 export const Logo = styled.img`
   max-width: 100%;
@@ -28,6 +31,10 @@ export const Button = styled(Link)`
   color: ${cores.preta};
   text-decoration: underline;
   text-decoration-color: ${cores.preta};
+  &:hover {
+    color: ${cores.amarelo};
+    text-decoration-color: ${cores.amarelo};
+  }
 `
 
 export const SecondaryText = styled.div`

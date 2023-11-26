@@ -6,6 +6,7 @@ export const Header = styled.div`
   width: 100%;
   height: fit-content;
   background-color: black;
+  border-top-left-radius: 2rem;
 `
 
 export const Container = styled.ul`
@@ -31,7 +32,7 @@ export const Button = styled(Link)`
   color: ${cores.amarelo};
   // background-color: ${cores.pretaOpacity};
   // border-radius: 1rem;
-  text-decoration: underline;
+  // text-decoration: underline;
   text-decoration-color: white;
   &:hover {
     color: white;
@@ -45,7 +46,7 @@ export const Links = styled.li`
   }
 
   .current {
-    text-decoration: underline;
+    // text-decoration: underline;
     color: white;
     text-decoration-color: ${cores.amarelo};
   }
