@@ -5,22 +5,23 @@ import { Link } from 'react-router-dom'
 export const Header = styled.header`
   width: 100%;
   height: fit-content;
+  background-color: black;
 `
 
 export const Container = styled.ul`
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 `
 
 export const Button = styled(Link)`
-  padding: 0.5rem;
+  // padding: 0.5rem;
   text-decoration: none;
   color: ${cores.amarelo};
-  background-color: ${cores.pretaOpacity};
-  border-radius: 1rem;
+  // background-color: ${cores.pretaOpacity};
+  // border-radius: 1rem;
   text-decoration: underline;
   text-decoration-color: white;
   &:hover {
