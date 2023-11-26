@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components'
+import background from './assets/images/background-site.jpg'
 
 export const cores = {
   preta: '#111',
@@ -26,13 +27,16 @@ export const GlobalCss = createGlobalStyle`
   }
 
   body {
-    background-color: ${cores.cinza}
+    background-color: ${cores.cinza};
+    background-image: url(${background});
   }
 `
 
 export const MainCard = styled.div`
-  margin: 1rem;
+  margin: 1rem auto;
   color: black;
   padding: 1rem;
   background-color: white;
+  max-width: 600px;
+  display: block;
 `

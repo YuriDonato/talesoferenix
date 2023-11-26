@@ -14,6 +14,8 @@ export const Container = styled.ul`
   list-style: none;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  max-width: 600px;
+  margin: 0 auto;
 `
 
 export const Button = styled(Link)`
