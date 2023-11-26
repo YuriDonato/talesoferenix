@@ -4,7 +4,7 @@ import HomeCard from '../../components/HomeCard'
 const Home = () => {
   return (
     <div>
-      {/* <Header current="home" /> */}
+      <Header current="home" />
       <HomeCard />
     </div>
   )

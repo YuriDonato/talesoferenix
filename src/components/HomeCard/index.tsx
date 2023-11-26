@@ -3,12 +3,10 @@ import * as S from './styles'
 import erenix from '../../assets/images/erenixlogo.png'
 import munnin from '../../assets/images/munnin-frontpage.png'
 import decoImg from '../../assets/images/bottom-ornament.png'
-import Header from '../Header'
 
 const HomeCard = () => {
   return (
     <S.Container>
-      <Header current="home" />
       <S.Logo src={erenix} alt="erenix" />
       <S.GridContainer>
         <S.Aside>

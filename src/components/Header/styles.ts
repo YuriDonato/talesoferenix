@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { cores } from '../../styles'
+import { MainCard, cores } from '../../styles'
 import { Link } from 'react-router-dom'
 
-export const Header = styled.header`
+export const Header = styled.div`
   width: 100%;
   height: fit-content;
   background-color: black;
@@ -16,6 +16,13 @@ export const Container = styled.ul`
   padding-bottom: 0.75rem;
   max-width: 600px;
   margin: 0 auto;
+`
+
+export const MainContainer = styled.div`
+  margin: 1rem auto 0 auto;
+  color: black;
+  max-width: 600px;
+  display: block;
 `
 
 export const Button = styled(Link)`

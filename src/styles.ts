@@ -33,7 +33,7 @@ export const GlobalCss = createGlobalStyle`
 `
 
 export const MainCard = styled.div`
-  margin: 1rem auto;
+  margin: 0 auto 1rem auto;
   color: black;
   padding: 1rem;
   background-color: white;
