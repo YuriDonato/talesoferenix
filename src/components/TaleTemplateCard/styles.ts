@@ -42,4 +42,5 @@ export const MainText = styled(Text)`
 export const TaleText = styled.div`
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 1.1rem;
 `
