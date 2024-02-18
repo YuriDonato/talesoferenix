@@ -66,9 +66,7 @@ const TalesCard = () => {
               _hover={{ transform: 'scale(1.05)' }}
             >
               <Box p="6">
-                <Heading as="h2" size="md" mb="2">
-                  {tale.title}
-                </Heading>
+                <S.Title>{tale.title}</S.Title>
                 <Text color="gray.600">{tale.description}</Text>
               </Box>
             </Grid>

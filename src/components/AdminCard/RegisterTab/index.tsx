@@ -62,13 +62,14 @@ const RegisterTab: React.FC = () => {
       'Dezembro'
     ]
     const monthName = monthNames[month]
+    setTaleData({ ...taleData, releaseDate: currentDate })
+
     return `${date} de ${monthName} de ${year}`
   }
 
   useEffect(() => {
     setCurrentDate(getDate())
-    setTaleData({ ...taleData, releaseDate: currentDate })
-  }, [])
+  }, [taleData])
 
   return (
     <>
