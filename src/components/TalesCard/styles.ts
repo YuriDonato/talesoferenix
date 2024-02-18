@@ -28,6 +28,7 @@ export const Text = styled.p`
 `
 export const Title = styled.h2`
   display: block;
+  font-size: ${texto.grande};
   font-family: 'Cinzel Decorative', serif;
   color: ${cores.preta};
   margin-bottom: 1rem;
