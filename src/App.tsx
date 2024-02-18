@@ -1,13 +1,26 @@
 import { BrowserRouter } from 'react-router-dom'
+import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 import { GlobalCss } from './styles'
 import Rotas from './routes'
 
+const theme = extendTheme({
+  styles: {
+    global: () => ({
+      body: {
+        bg: ''
+      }
+    })
+  }
+})
+
 function App() {
   return (
-    <BrowserRouter>
-      <GlobalCss />
-      <Rotas />
-    </BrowserRouter>
+    <ChakraProvider theme={theme}>
+      <BrowserRouter>
+        <GlobalCss />
+        <Rotas />
+      </BrowserRouter>
+    </ChakraProvider>
   )
 }
 

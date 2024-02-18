@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { MainCard, cores } from '../../styles'
+import { cores } from '../../styles'
 import { Link } from 'react-router-dom'
 
 export const Header = styled.div`

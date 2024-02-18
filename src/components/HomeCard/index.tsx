@@ -33,7 +33,7 @@ const HomeCard = () => {
             </S.Text>
             <S.Text>
               <S.Button to="/tales">Os Contos </S.Button>
-              tratam da visão de outros personagens sobre o mundo de erenix,
+              tratam da visão de outros personagens sobre o mundo de Erenix,
               retratando suas opiniões e teorias.
             </S.Text>
             <S.Text>

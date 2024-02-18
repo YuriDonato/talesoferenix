@@ -23,7 +23,7 @@ export const GlobalCss = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'IM Fell DW Pica', serif;
-    color: ${cores.branca};
+    color: ${cores.preta};
   }
 
   body {
@@ -39,4 +39,6 @@ export const MainCard = styled.div`
   background-color: white;
   max-width: 600px;
   display: block;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
 `

@@ -1,0 +1,5 @@
+Inicio - Done (Falta conexão com o db para definir as datas e last updates)
+Pagina de historia - WIP
+Contos - Visual Remaining
+Universo - 0%
+Guia de Campo - 0%

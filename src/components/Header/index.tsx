@@ -1,3 +1,4 @@
+import { SettingsIcon } from '@chakra-ui/icons'
 import * as S from './styles'
 
 type Props = {
@@ -44,6 +45,11 @@ const Header = ({ current }: Props) => {
               to="/guide"
             >
               Guia de Campo
+            </S.Button>
+          </S.Links>
+          <S.Links>
+            <S.Button to="/admin">
+              <SettingsIcon />
             </S.Button>
           </S.Links>
         </S.Container>
