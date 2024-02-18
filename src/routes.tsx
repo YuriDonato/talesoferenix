@@ -7,6 +7,7 @@ import Guide from './pages/Guide'
 import Admin from './pages/Admin'
 import WIP from './pages/WIP'
 import TalePage from './pages/Tale'
+import Donate from './pages/Donate'
 
 const Rotas = () => (
   <Routes>
@@ -17,6 +18,7 @@ const Rotas = () => (
     <Route path="/universe" element={<Universe />}></Route>
     <Route path="/guide" element={<Guide />}></Route>
     <Route path="/admin" element={<Admin />}></Route>
+    <Route path="/donate" element={<Donate />}></Route>
     <Route path="*" element={<WIP />}></Route>
   </Routes>
 )

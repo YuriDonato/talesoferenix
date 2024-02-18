@@ -5,6 +5,7 @@ import munnin from '../../assets/images/munnin-frontpage.png'
 import decoImg from '../../assets/images/bottom-ornament.png'
 import { lastUpdate } from '../../data/lastUpdate'
 import { DecoImgBaixo } from '../decoImg'
+import PixDonation from '../PixDonation'
 
 const HomeCard = () => {
   return (
