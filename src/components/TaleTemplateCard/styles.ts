@@ -7,15 +7,15 @@ export const Container = styled(MainCard)`
   align-items: center;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f8f8f8;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  // background-color: #f8f8f8;
+  // box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 `
 
 export const Title = styled.h2`
   display: flex;
   font-family: 'Cinzel Decorative', serif;
-  color: ${cores.preta};
-  margin-bottom: 1rem;
+  font-size: ${texto.muitoGrande};
+  margin-bottom: 0.5rem;
   flex-direction: row;
   align-content: center;
   flex-wrap: wrap;
@@ -25,14 +25,21 @@ export const Title = styled.h2`
 export const Text = styled.p`
   font-size: ${texto.grande};
   line-height: 1.6;
-  color: ${cores.preta};
 `
 
 export const Author = styled.small`
-  color: ${cores.preta};
-  padding-left: 90%;
+  font-size: ${texto.grande};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
 `
 
 export const MainText = styled(Text)`
   text-align: center;
+`
+
+export const TaleText = styled.div`
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 `

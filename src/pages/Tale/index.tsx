@@ -7,6 +7,7 @@ import Header from '../../components/Header'
 import Footer from '../../components/Footer'
 import TaleTemplateCard from '../../components/TaleTemplateCard'
 import Loading from '../../components/Loading'
+import FooterTalesCard from '../../components/TalesCard/FooterTalesCard'
 
 const TalePage = () => {
   const { id } = useParams<{ id?: string }>()
@@ -39,7 +40,14 @@ const TalePage = () => {
     <>
       <Header current="tales" />
       <S.MainCard>
-        {taleData ? <TaleTemplateCard tale={taleData} /> : <Loading />}
+        {taleData ? (
+          <>
+            <TaleTemplateCard tale={taleData} />
+            <FooterTalesCard lastUpdate={taleData.updateDate} />
+          </>
+        ) : (
+          <Loading />
+        )}
       </S.MainCard>
       <Footer />
     </>
