@@ -1,3 +1,4 @@
+import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import HomeCard from '../../components/HomeCard'
 
@@ -6,6 +7,7 @@ const Home = () => {
     <div>
       <Header current="home" />
       <HomeCard />
+      <Footer />
     </div>
   )
 }

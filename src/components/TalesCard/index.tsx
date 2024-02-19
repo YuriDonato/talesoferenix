@@ -5,10 +5,11 @@ import * as db from '../../services/firebase'
 import { Tale } from '../../models/Tale'
 import { DocumentData } from '@firebase/firestore-types'
 import * as S from './styles'
+import Loading from '../Loading'
 
 const TalesCard = () => {
   const [taleList, setTaleList] = useState<Tale[]>([])
-  const [emptyList, setEmptyList] = useState<boolean>(false)
+  const [emptyList, setEmptyList] = useState<boolean>(true)
 
   const fetchTales = async () => {
     try {
@@ -18,6 +19,7 @@ const TalesCard = () => {
       if (querySnapshot.empty) {
         setEmptyList(true)
       } else {
+        setEmptyList(false)
         const fetchedTales: Tale[] = []
         querySnapshot.forEach((doc) => {
           const data = doc.data() as DocumentData
@@ -46,7 +48,7 @@ const TalesCard = () => {
   return (
     <S.Container>
       {emptyList ? (
-        <div>Não há contos disponíveis</div>
+        <Loading />
       ) : (
         <Grid
           templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }}

@@ -1,5 +1,3 @@
-import React from 'react'
-import { QRCode } from 'react-qrcode'
 import { useToast } from '@chakra-ui/react'
 import copy from 'copy-to-clipboard'
 import { Container } from '../HomeCard/styles'

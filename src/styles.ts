@@ -33,12 +33,12 @@ export const GlobalCss = createGlobalStyle`
 `
 
 export const MainCard = styled.div`
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 0 auto;
   color: black;
   padding: 1rem;
   background-color: white;
   max-width: 600px;
   display: block;
-  border-bottom-right-radius: 2rem;
-  border-bottom-left-radius: 2rem;
+  // border-bottom-right-radius: 2rem;
+  // border-bottom-left-radius: 2rem;
 `
