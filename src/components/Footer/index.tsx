@@ -4,7 +4,7 @@ import { Grid } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
-    <Grid templateColumns={{ base: '4fr', md: '5fr' }} gap={6} width="100%">
+    <>
       <S.MainContainer>
         <S.Header>
           <S.Container>
@@ -26,12 +26,7 @@ const Footer = () => {
           </S.Container>
         </S.Header>
       </S.MainContainer>
-      <p>contato</p>
-      <p>mapa do site</p>
-      <p>buscar</p>
-      <Link to={'/donate'}>doar</Link>
-      <p></p>
-    </Grid>
+    </>
   )
 }
 

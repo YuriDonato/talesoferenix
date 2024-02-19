@@ -13,15 +13,15 @@ export const Container = styled.ul`
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  padding-top: 0.75rem;
+  // padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   max-width: 600px;
   margin: 0 auto;
-  align-items: center;
+  padding-top: 0.5rem;
 `
 
 export const MainContainer = styled.div`
-  margin: 0 auto 0 auto;
+  margin: 0 auto 1rem auto;
   color: black;
   max-width: 600px;
   display: block;
@@ -42,7 +42,6 @@ export const Button = styled(Link)`
 
 export const Links = styled.li`
   transition: 0.5s ease all;
-  padding: 0.25rem;
   &:hover {
     transform: scale(1.1);
   }
