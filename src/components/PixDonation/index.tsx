@@ -3,7 +3,7 @@ import { QRCode } from 'react-qrcode'
 import { useToast } from '@chakra-ui/react'
 import copy from 'copy-to-clipboard'
 import { Container } from '../HomeCard/styles'
-import Pix from '../../assets/images/pix.jpg'
+import Pix from '../../assets/images/pix.png'
 
 const PixDonation = () => {
   const toast = useToast()
