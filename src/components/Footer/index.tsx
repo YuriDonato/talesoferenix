@@ -21,7 +21,7 @@ const Footer = () => {
               <S.Button to="/donate">Doar</S.Button>
             </S.Links>
             <S.CopyrightText>
-              Copyright © 2014–2023 by Beltrão Y. Donato. All Rights Reserved.
+              Copyright © 2014–2024 by Beltrão Y. Donato. All Rights Reserved.
             </S.CopyrightText>
           </S.Container>
         </S.Header>
