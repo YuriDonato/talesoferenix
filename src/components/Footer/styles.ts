@@ -42,6 +42,7 @@ export const Button = styled(Link)`
 
 export const Links = styled.li`
   transition: 0.5s ease all;
+  padding: 0.25rem;
   &:hover {
     transform: scale(1.1);
   }
