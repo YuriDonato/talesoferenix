@@ -6,7 +6,7 @@ const Donate = () => {
   return (
     <>
       <Header current="home" />
-      <PixDonation pixKey="70561709432" />
+      <PixDonation />
       <Footer />
     </>
   )
