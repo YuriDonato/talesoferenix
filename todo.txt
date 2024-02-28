@@ -3,3 +3,8 @@ Pagina de historia - WIP
 Contos - Done
 Universo - 0%
 Guia de Campo - 0%
+
+
+Na pagina de historia:
+ - Opção de paginação ou rolagem (modo de leitura)
+  - Pagina amarela branca e preta estilo mudança de tema

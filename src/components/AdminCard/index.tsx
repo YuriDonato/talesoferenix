@@ -8,15 +8,75 @@ const AdminCard = () => {
       <S.Title>Admin</S.Title>
       <Tabs variant="soft-rounded" colorScheme="yellow">
         <TabList>
-          <Tab>Cadastrar</Tab>
-          <Tab>Editar</Tab>
+          <Tab>Conto</Tab>
+          <Tab>Historia</Tab>
+          <Tab>Universo</Tab>
+          <Tab>Guia de Campo</Tab>
         </TabList>
         <TabPanels>
           <TabPanel>
-            <RegisterTab />
+            <Tabs variant="soft-rounded" colorScheme="yellow">
+              <TabList>
+                <Tab>Cadastrar</Tab>
+                <Tab>Editar</Tab>
+              </TabList>
+              <TabPanels>
+                <TabPanel>
+                  <RegisterTab category="tale" />
+                </TabPanel>
+                <TabPanel>
+                  <S.MainText>two!</S.MainText>
+                </TabPanel>
+              </TabPanels>
+            </Tabs>
           </TabPanel>
           <TabPanel>
-            <S.MainText>two!</S.MainText>
+            <Tabs variant="soft-rounded" colorScheme="yellow">
+              <TabList>
+                <Tab>Cadastrar</Tab>
+                <Tab>Editar</Tab>
+              </TabList>
+              <TabPanels>
+                <TabPanel>
+                  <RegisterTab category="story" />
+                </TabPanel>
+                <TabPanel>
+                  <S.MainText>two!</S.MainText>
+                </TabPanel>
+              </TabPanels>
+            </Tabs>
+          </TabPanel>
+          <TabPanel>
+            <Tabs variant="soft-rounded" colorScheme="yellow">
+              <TabList>
+                <Tab>Cadastrar</Tab>
+                <Tab>Editar</Tab>
+              </TabList>
+              <TabPanels>
+                <TabPanel>
+                  <RegisterTab category="universe" />
+                </TabPanel>
+                <TabPanel>
+                  <S.MainText>two!</S.MainText>
+                </TabPanel>
+              </TabPanels>
+            </Tabs>
+          </TabPanel>
+          <TabPanel>
+            <Tabs variant="soft-rounded" colorScheme="yellow">
+              <TabList>
+                <Tab>Cadastrar</Tab>
+                <Tab>Editar</Tab>
+              </TabList>
+              <TabPanels>
+                <TabPanel>
+                  <RegisterTab category="guide" />
+                </TabPanel>
+                <TabPanel>
+                  <S.MainText>two!</S.MainText>
+                </TabPanel>
+              </TabPanels>
+            </Tabs>
           </TabPanel>
         </TabPanels>
       </Tabs>
