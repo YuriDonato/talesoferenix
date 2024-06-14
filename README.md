@@ -18,11 +18,11 @@ The initial version of the site was developed using pure HTML/CSS/JavaScript. Ho
 
 ### Backend
 
-The backend will primarily be developed using JavaScript. I will also consider using a database, such as MongoDB, to manage and organize the stories and related content.
+The backend will primarily be developed using TypeScript. I will also consider using a database, such as FireBase, to manage and organize the stories and related content.
 
 ### Frontend
 
-The frontend will be built with React/NextJS, and TailwindCSS will be used for styling to create a responsive design that works seamlessly across all devices.
+The frontend will be built with React/NextJS, and Styled Components will be used for styling to create a responsive design that works seamlessly across all devices.
 
 ## Features
 
