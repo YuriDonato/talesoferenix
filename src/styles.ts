@@ -42,3 +42,21 @@ export const MainCard = styled.div`
   // border-bottom-right-radius: 2rem;
   // border-bottom-left-radius: 2rem;
 `
+
+export const Container = styled(MainCard)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+`
+
+export const Title = styled.h2`
+  display: block;
+  font-size: ${texto.grande};
+  font-family: 'Cinzel Decorative', serif;
+  color: ${cores.preta};
+  margin-bottom: 1rem;
+`

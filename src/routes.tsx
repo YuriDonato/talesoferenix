@@ -8,11 +8,15 @@ import Admin from './pages/Admin'
 import WIP from './pages/WIP'
 import TalePage from './pages/Tale'
 import Donate from './pages/Donate'
+import BookChapter from './pages/Book'
+import BookPage from './pages/Book/Page'
 
 const Rotas = () => (
   <Routes>
     <Route path="/" element={<Home />}></Route>
     <Route path="/story" element={<Story />}></Route>
+    <Route path="/story/:id" element={<BookChapter />}></Route>
+    <Route path="/story/:bookId/:pageId"  element={<BookPage />}></Route>
     <Route path="/tales" element={<Tales />}></Route>
     <Route path="/tales/:id" element={<TalePage />}></Route>
     <Route path="/universe" element={<Universe />}></Route>
